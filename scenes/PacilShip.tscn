@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://chskfsi8734pc"]
+
+[ext_resource type="Texture2D" uid="uid://dh610bbucs6rh" path="res://assets/fasilkom.png" id="1_7s4i6"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_u20pa"]
+
+[node name="PacilShip" type="RigidBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_7s4i6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(8, 8)
+shape = SubResource("CircleShape2D_u20pa")
