@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739506459
-default_env.tres::Environment::784183765299159521::1739506805::0::1::::<><>::
+::res://::1739774117
+default_env.tres::Environment::784183765299159521::1739508042::0::1::::<><>::
 README.md::TextFile::-1::1739506459::0::1::::<><>::
 ::res://assets/::1739502445
 fasilkom.png::CompressedTexture2D::7716203008561212981::1739502323::1739502445::1::::<><>::
@@ -10,10 +10,12 @@ playerShip1_blue.png::CompressedTexture2D::7616533849599883667::1739502323::1739
 playerShip1_green.png::CompressedTexture2D::2001637748197818689::1739502323::1739502445::1::::<><>::
 snow.png::CompressedTexture2D::4888826356960029576::1739502323::1739502445::1::::<><>::
 stone.png::CompressedTexture2D::6534652574608454091::1739502323::1739502445::1::::<><>::
-::res://scenes/::1739506358
-BlueShip.tscn::PackedScene::211729922060446004::1739505724::0::1::::<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_blue.png
-MainLevel.tscn::PackedScene::5012948746790269291::1739506358::0::1::::<><>::uid://y5a4e3ajuy2r::::res://scenes/StonePlatform.tscn<>uid://datfp8kxjrjg::::res://scenes/BlueShip.tscn<>res://scenes/PlatformBlue.gd<>res://scenes/ObjectiveArea.gd
+::res://scenes/::1739508042
+BlueShip.tscn::PackedScene::211729922060446004::1739508041::0::1::::<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_blue.png
+BuatLevel.tscn::PackedScene::6395655886948119215::1739508042::0::1::::<><>::uid://chskfsi8734pc::::res://scenes/PacilShip.tscn<>uid://8eiap8jv8cym::::res://scenes/SnowPlatform.tscn
+MainLevel.tscn::PackedScene::5012948746790269291::1739508041::0::1::::<><>::uid://y5a4e3ajuy2r::::res://scenes/StonePlatform.tscn<>uid://datfp8kxjrjg::::res://scenes/BlueShip.tscn<>res://scenes/PlatformBlue.gd<>res://scenes/ObjectiveArea.gd
 ObjectiveArea.gd::GDScript::-1::1739502323::0::1::::<>Area2D<>::
+PacilShip.tscn::PackedScene::5301939130644698100::1739508042::0::1::::<><>::uid://dh610bbucs6rh::::res://assets/fasilkom.png
 PlatformBlue.gd::GDScript::-1::1739502323::0::1::::<>Node2D<>::
-BuatLebel.tscn::PackedScene::6395655886948119215::1739506805::0::1::::<><>::
-StonePlatform.tscn::PackedScene::1746515621318578487::1739505724::0::1::::<><>::uid://c0do1j2bc1edf::::res://assets/stone.png
+SnowPlatform.tscn::PackedScene::2324975926280519420::1739508042::0::1::::<><>::uid://cbwgix0inp3tk::::res://assets/snow.png
+StonePlatform.tscn::PackedScene::1746515621318578487::1739508041::0::1::::<><>::uid://c0do1j2bc1edf::::res://assets/stone.png
